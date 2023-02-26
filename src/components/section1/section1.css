@@ -1,0 +1,15 @@
+.vector {
+    background-image: url(file:///C:/Users/User/Downloads/Vector.png);
+    height: 100px;
+    background-repeat: no-repeat;
+    transform: rotate(16deg);
+    margin-top: 91px;
+}
+
+.bring {
+    margin-top: 80px;
+}
+
+.lorem{
+    margin-top: 80px;
+}

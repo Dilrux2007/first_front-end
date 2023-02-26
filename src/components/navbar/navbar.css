@@ -1,0 +1,67 @@
+.background{
+    background-color: #FEBEBE;
+    padding-top: 15px;
+}
+
+.logo{
+    border: 2px solid red;
+    width: 100px;
+    background: #ffff;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu{
+    display: none;
+}
+
+:hover.home{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+:hover.reatures{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+:hover.series{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+:hover.location{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+:hover.about{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.nav_p_parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 425px) {
+    .nav_p_parent{
+        display: none;
+    }
+    .background{
+        padding-bottom: 10px;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        left: 330px;
+    }
+    .nav_left{
+        position: relative;
+    }
+
+    .nav_left{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

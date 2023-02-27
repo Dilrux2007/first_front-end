@@ -33,6 +33,12 @@
     height: 468px;
 }
 
+.meeting_three {
+    background-image: url(file:///C:/Users/User/Downloads/Rectangle%207015.png);
+    width: 398px;
+    height: 468px;
+}
+
 .meeting_space {
     font-family: 'Clash Grotesk';
     font-style: normal;
@@ -43,7 +49,49 @@
     color: #000000;
 }
 
+.meeting_space_three {
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    padding-top: 20px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.meeting_space_two {
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    padding-top: 20px;
+    line-height: 42px;
+    color: #000000;
+}
+
 .find_one {
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 30px;
+    color: #4569F1;
+    padding: 25px 0px 0px 20px;
+    margin-bottom: 100px;
+}
+
+.find_one_three {
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 30px;
+    color: #4569F1;
+    padding: 25px 0px 0px 20px;
+    margin-bottom: 100px;
+}
+
+.find_one_two {
     font-family: 'Clash Grotesk';
     font-style: normal;
     font-weight: 400;
@@ -74,6 +122,17 @@
     height: 516px;
 }
 
+:hover.meeting_three {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 435px;
+    height: 516px;
+}
+
+.style{
+    display: flex;
+}
+
 .show {
     font-family: 'Clash Grotesk';
     font-style: normal;
@@ -89,4 +148,104 @@
     border: 1px solid gray;
     background-color: white;
     margin-bottom: 100px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .vector {
+        display: none;
+    }
+
+    .parent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* text-align: center; */
+        /* align-items: center; */
+        width: 400px;
+    }
+
+    .style{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 400px;
+    }
+
+    .bring {
+        width: 292px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .lorem {
+        width: 400px;
+        text-align: center;
+    }
+
+    .meeting_space_two {
+        width: 342px;
+    }
+
+    .show {
+        margin-left: 100px;
+    }
+
+    .hundres {
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .meeting_two {
+        display: none;
+    }
+
+    .meeting_space_two {
+        display: none;
+    }
+
+    .find_one_two {
+        display: none;
+    }
+
+    .meeting_three {
+        display: none;
+    }
+
+    .meeting_space_three {
+        display: none;
+    }
+
+    .find_one_three {
+        display: none;
+    }
+
+    .meeting_space {
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+        width: 100px;
+    }
+
+    .find_one {
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4569F1;
+        width: 100px;
+    }
+
+
 }

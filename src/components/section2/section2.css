@@ -9,6 +9,12 @@
     height: 444px;
 }
 
+.foto_two {
+    background-image: url(file:///C:/Users/User/Downloads/Rectangle%207017.png);
+    width: 559px;
+    height: 444px;
+}
+
 .our {
     text-align: end;
     font-family: 'Clash Grotesk';
@@ -31,6 +37,7 @@
     text-decoration-line: underline;
     color: #000000;
 }
+
 .productivty {
     font-family: 'Clash Grotesk';
     font-style: normal;
@@ -55,7 +62,11 @@
     color: #000000;
 }
 
-.amet_minim{
+.flex_two {
+    display: none;
+}
+
+.amet_minim {
     margin-left: 67px;
     margin-top: 18px;
 }
@@ -65,4 +76,79 @@
     height: 0px;
     opacity: 0.3;
     border: 1px solid #010101;
+}
+
+
+@media screen and (max-width: 425px) {
+    .flex {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .flex_two {
+        display: block;
+    }
+
+    .foto {
+        display: none;
+    }
+
+    .our {
+        width: 292px;
+        height: 64px;
+        text-align: start;
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        color: #000000;
+        margin-left: 1px;
+    }
+
+    .amet_minim {
+        width: 400px;
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        width: 300px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #010101;
+        margin-left: 10px;
+    }
+
+    .minim {
+        width: 300px;
+    }
+
+    .section2 {
+        padding: 32px 24px;
+    }
+
+    .good {
+        margin-left: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .simple {
+        margin-left: 0;
+    }
+
+    .productivty {
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        text-decoration-line: underline;
+        color: #000000;
+    }
 }

@@ -15,7 +15,6 @@
 .intro {
     color: black;
     margin-left: 56px;
-
 }
 
 .display {
@@ -68,6 +67,15 @@
     color: #010101;
 }
 
+.find_place {
+    width: 159px;
+    height: 56px;
+}
+
+.intro{
+    width: 100px;
+}
+
 .office {
     font-family: 'Clash Grotesk';
     font-style: normal;
@@ -75,4 +83,56 @@
     font-size: 18px;
     line-height: 24px;
     color: #010101;
+}
+
+
+@media screen and (max-width: 425px) {
+    .display {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .right_text {
+        margin-top: 400px;
+        width: 300px;
+    }
+
+    .right_img {
+        width: 332px;
+        height: 365px;
+        margin-left: 10px;
+    }
+
+    .ikkiyuzplus {
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #010101;
+    }
+
+    .office {
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 24px;
+        color: #010101;
+    }
+
+    .find {
+        font-family: 'Clash Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 52px;
+        color: #010101;
+        width: 350px;
+    }
+
+    .amet {
+        width: 340px;
+    }
 }

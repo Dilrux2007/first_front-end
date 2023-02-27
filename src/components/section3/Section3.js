@@ -7,7 +7,6 @@ export default function Section3() {
         <div className='row'>
             <div className='col-12'>
                 <h1 className='spending'>Spending time away from the office at a coworking space can also spark new ideas. </h1>
-                <div className='line_vector'></div>
             </div>
         </div>
     </div>

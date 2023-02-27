@@ -10,6 +10,83 @@
     margin-top: 80px;
 }
 
-.lorem{
+.lorem {
     margin-top: 80px;
+}
+
+.hundres {
+    text-align: center;
+    margin-bottom: 75px;
+    width: 798px;
+    margin-top: 120px;
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 67px;
+    line-height: 52px;
+    color: #000000;
+}
+
+.meeting {
+    background-image: url(file:///C:/Users/User/Downloads/Rectangle%207015.png);
+    width: 398px;
+    height: 468px;
+}
+
+.meeting_space {
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    padding-top: 20px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.find_one {
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 30px;
+    color: #4569F1;
+    padding: 25px 0px 0px 20px;
+    margin-bottom: 100px;
+}
+
+.meeting_two {
+    background-image: url(file:///C:/Users/User/Downloads/Rectangle%207016.png);
+    width: 398px;
+    height: 468px;
+}
+
+:hover.meeting {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 435px;
+    height: 516px;
+}
+
+:hover.meeting_two {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 435px;
+    height: 516px;
+}
+
+.show {
+    font-family: 'Clash Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    width: 188px;
+    height: 50px;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 570px;
+    color: #010101;
+    border-radius: 50px;
+    border: 1px solid gray;
+    background-color: white;
+    margin-bottom: 100px;
 }
